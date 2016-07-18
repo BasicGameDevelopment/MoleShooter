@@ -1,0 +1,9 @@
+c:\users\zdravko\documents\visual studio 2015\Projects\MoleShooter\MoleShooter\bin\Debug\MoleShooter.exe.config
+c:\users\zdravko\documents\visual studio 2015\Projects\MoleShooter\MoleShooter\bin\Debug\MoleShooter.exe
+c:\users\zdravko\documents\visual studio 2015\Projects\MoleShooter\MoleShooter\bin\Debug\MoleShooter.pdb
+c:\users\zdravko\documents\visual studio 2015\Projects\MoleShooter\MoleShooter\obj\Debug\MoleShooter.csprojResolveAssemblyReference.cache
+c:\users\zdravko\documents\visual studio 2015\Projects\MoleShooter\MoleShooter\obj\Debug\MoleShooter.MoleShooter.resources
+c:\users\zdravko\documents\visual studio 2015\Projects\MoleShooter\MoleShooter\obj\Debug\MoleShooter.Properties.Resources.resources
+c:\users\zdravko\documents\visual studio 2015\Projects\MoleShooter\MoleShooter\obj\Debug\MoleShooter.csproj.GenerateResource.Cache
+c:\users\zdravko\documents\visual studio 2015\Projects\MoleShooter\MoleShooter\obj\Debug\MoleShooter.exe
+c:\users\zdravko\documents\visual studio 2015\Projects\MoleShooter\MoleShooter\obj\Debug\MoleShooter.pdb
