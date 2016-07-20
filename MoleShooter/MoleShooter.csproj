@@ -46,14 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomCursor.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\BloodSplash.cs" />
+    <Compile Include="Models\Crosshair.cs" />
     <Compile Include="Models\ImageBase.cs" />
+    <Compile Include="Models\MenuBoard.cs" />
     <Compile Include="Models\Mole.cs" />
+    <Compile Include="Models\ScoreBoard.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
