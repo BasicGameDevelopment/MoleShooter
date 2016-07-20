@@ -43,7 +43,10 @@
             this.BackgroundImage = global::MoleShooter.Properties.Resources.Background;
             this.ClientSize = new System.Drawing.Size(600, 438);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "MoleShooter";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MoleShooter";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoleShooter_MouseMove);

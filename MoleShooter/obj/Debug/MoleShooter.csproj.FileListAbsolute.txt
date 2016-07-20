@@ -7,3 +7,12 @@ c:\users\zdravko\documents\visual studio 2015\Projects\MoleShooter\MoleShooter\o
 c:\users\zdravko\documents\visual studio 2015\Projects\MoleShooter\MoleShooter\obj\Debug\MoleShooter.csproj.GenerateResource.Cache
 c:\users\zdravko\documents\visual studio 2015\Projects\MoleShooter\MoleShooter\obj\Debug\MoleShooter.exe
 c:\users\zdravko\documents\visual studio 2015\Projects\MoleShooter\MoleShooter\obj\Debug\MoleShooter.pdb
+D:\SoftUni\MoleShooter\MoleShooter\bin\Debug\MoleShooter.exe.config
+D:\SoftUni\MoleShooter\MoleShooter\obj\Debug\MoleShooter.exe
+D:\SoftUni\MoleShooter\MoleShooter\obj\Debug\MoleShooter.pdb
+D:\SoftUni\MoleShooter\MoleShooter\bin\Debug\MoleShooter.exe
+D:\SoftUni\MoleShooter\MoleShooter\bin\Debug\MoleShooter.pdb
+D:\SoftUni\MoleShooter\MoleShooter\obj\Debug\MoleShooter.csprojResolveAssemblyReference.cache
+D:\SoftUni\MoleShooter\MoleShooter\obj\Debug\MoleShooter.MoleShooter.resources
+D:\SoftUni\MoleShooter\MoleShooter\obj\Debug\MoleShooter.Properties.Resources.resources
+D:\SoftUni\MoleShooter\MoleShooter\obj\Debug\MoleShooter.csproj.GenerateResource.Cache
