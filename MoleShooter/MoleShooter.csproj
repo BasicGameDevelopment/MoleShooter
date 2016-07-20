@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomCursor.cs" />
+    <Compile Include="Models\CustomCursor.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,7 +54,6 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\BloodSplash.cs" />
-    <Compile Include="Models\Crosshair.cs" />
     <Compile Include="Models\ImageBase.cs" />
     <Compile Include="Models\MenuBoard.cs" />
     <Compile Include="Models\Mole.cs" />
@@ -104,6 +103,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Scoreboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gun-gunshot-01.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,4 +1,4 @@
-﻿namespace MoleShooter
+﻿namespace MoleShooter.Models
 {
     using System;
     using System.Drawing;

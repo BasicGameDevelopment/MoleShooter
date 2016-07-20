@@ -49,6 +49,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MoleShooter";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.MoleShooter_MouseClick);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoleShooter_MouseMove);
             this.ResumeLayout(false);
 
