@@ -5,6 +5,7 @@ namespace MoleShooter
     using System.Drawing;
     using System.Windows.Forms;
     using Models;
+    using Properties;
 
     public partial class MoleShooter : Form
     {
@@ -13,10 +14,23 @@ namespace MoleShooter
         private int currY = 0;
 #endif
         private Mole mole;
+        private MenuBoard menuBoard;
+        private Crosshair crosshair;
+        private ScoreBoard scoreBoard;
+        private BloodSplash bloodSplash;
+
         public MoleShooter()
         {
             InitializeComponent();
+
+            Bitmap bmp = Resources.Crosshair;
+            this.Cursor = CustomCursor.CreateCursor(bmp, bmp.Height/2, bmp.Width/2);
+
             this.mole = new Mole(10,200);
+            this.menuBoard = new MenuBoard(400,60);
+            this.scoreBoard = new ScoreBoard(10,-20);
+            //this.crosshair = new Crosshair(0,0);
+            this.bloodSplash = new BloodSplash(0,0);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -47,6 +61,9 @@ namespace MoleShooter
 
 #endif
             this.mole.DrawImage(dc);
+            this.menuBoard.DrawImage(dc);
+            this.scoreBoard.DrawImage(dc);
+          //  this.bloodSplash.DrawImage(dc);
             base.OnPaint(e);
         }
 
@@ -55,8 +72,11 @@ namespace MoleShooter
 #if Debug
             this.currX = e.X;
             this.currY = e.Y;
+
 #endif
             this.Refresh();
         }
+
+
     }
 }
